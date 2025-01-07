@@ -6,12 +6,12 @@ import {
   Flags_es,
   Flags_fr,
   Flags_us,
-  Logo_img,
-  logo,
+  // Logo_img,
 } from "../imagepath";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Select from "react-select";
+import logo from '../home/logo2.png'
 
 // eslint-disable-next-line no-unused-vars
 const HeaderTwo = (props) => {
@@ -206,7 +206,7 @@ const HeaderTwo = (props) => {
                   <span />
                 </span>
               </Link>
-              <Link to="/index" className="navbar-brand logo">
+              <Link to="/index" className="logo">
                 <img src={logo} className="img-fluid" alt="Logo" />
               </Link>
               <div className="input-group me-5">
@@ -220,7 +220,7 @@ const HeaderTwo = (props) => {
             <div className="main-menu-wrapper">
               <div className="menu-header">
                 <Link to="/" className="menu-logo">
-                  <img src={Logo_img} className="img-fluid" alt="Logo" />
+                  <img src={logo} className="img-fluid" alt="Logo" />
                 </Link>
                 <Link
                   id="menu_close"

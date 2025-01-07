@@ -28,7 +28,6 @@ import {
   Location_06,
   Location_07,
   Location_08,
-  load_icon,
   hometwobanner,
   hometwobanner02,
   skillicon01,
@@ -78,6 +77,7 @@ import FeaturedBlog from "./slider/Featureblogs";
 import TopHiringCompany1 from "./slider/TopHiringcompany1";
 import CountUp from "react-countup";
 import Select from "react-select";
+import logo from './logo.png'
 // import Footer from "../footer/index"
 
 const Home2 = () => {
@@ -128,7 +128,7 @@ const Home2 = () => {
       <div id="global-loader">
         <div className="whirly-loader"> </div>
         <div className="loader-img">
-          <img src={load_icon} className="img-fluid" alt="" />
+          <img src={logo} className="img-fluid" alt="" />
         </div>
       </div>
       {/* Loader */}

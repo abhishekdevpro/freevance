@@ -277,7 +277,7 @@ const AppContainer = function (props) {
             <div className="about-us-page">
               <Switch>
                 {/* home */}
-                <Route exact path="/" component={Home} />
+                <Route exact path="/" component={Home2} />
                 <Route exact path="/index-two" component={Home2} />
                 <Route exact path="/index-three" component={Home3} />
                 <Route exact path="/index-four" component={Home4} />
