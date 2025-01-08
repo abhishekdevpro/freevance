@@ -1685,7 +1685,7 @@ const Home2 = () => {
         <ReviewUser />
         {/* / Review */}
         {/* Company Hire */}
-        <TopHiringCompany1 />
+        {/* <TopHiringCompany1 /> */}
         {/* / Company Hire */}
         {/* News */}
         <FeaturedBlog />
