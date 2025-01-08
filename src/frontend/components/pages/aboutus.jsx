@@ -123,7 +123,7 @@ const Aboutus = () => {
             <div className="col-md-12 col-sm-12 col-12 mx-auto text-center">
               <div className="section-header aos  " data-aos="fade-up">
                 <h2 className="header-title">What’s great about it?</h2>
-                <p>All the features of kofejob below</p>
+                <p>All the features of Freevance below</p>
               </div>
             </div>
             {/* Feature Item */}
@@ -179,7 +179,7 @@ const Aboutus = () => {
                 <div className="feature-content course-count text-center">
                   <h3>Quality Work</h3>
                   <p>
-                    Kofejob.com has by far the largest pool of quality
+                    Freevance.com has by far the largest pool of quality
                     freelancers globally- over 50 million to choose from.
                   </p>
                 </div>

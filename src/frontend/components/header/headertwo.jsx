@@ -9,7 +9,7 @@ import {
   // Logo_img,
 } from "../imagepath";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown, faSearch, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Select from "react-select";
 import logo from '../home/logo2.png'
 
@@ -88,12 +88,12 @@ const HeaderTwo = (props) => {
   return (
     <>
       {/* Header */}
-      <header className={`header header-two ${navbar ? "sticky" : ""} `}>
-        <div className="top-header">
+      <header className={`header header-two ${navbar ? "sticky" : ""}`}>
+      {/* <div className="top-header">
           <div className="container">
             <div className="top-head-items">
               <ul className="nav user-menu">
-                {/* Flag */}
+                {/* Flag 
                 <li className="nav-item dropdown has-arrow flag-nav">
                   <Link
                     className="nav-link dropdown-toggle"
@@ -124,7 +124,7 @@ const HeaderTwo = (props) => {
                     </Link>
                   </div>
                 </li>
-                {/* /Flag */}
+                {/* /Flag
                 <li className="nav-item dropdown has-arrow flag-nav">
                   <Link
                     className="nav-link dropdown-toggle"
@@ -195,7 +195,7 @@ const HeaderTwo = (props) => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="container-fluid">
           <nav className="navbar navbar-expand-lg header-nav p-0">
             <div className="navbar-header header-select">
@@ -206,7 +206,7 @@ const HeaderTwo = (props) => {
                   <span />
                 </span>
               </Link>
-              <Link to="/index" className="logo">
+              <Link to="/" className="logo">
                 <img src={logo} className="img-fluid" alt="Logo" />
               </Link>
               <div className="input-group me-5">
@@ -245,242 +245,24 @@ const HeaderTwo = (props) => {
                 >
                   {/* <li className={`has-submenu ${pathname.includes("index") || pathname.includes("index-two") || pathname.includes("index-three") || pathname.includes("index-four") || pathname.includes("index-five") ? "active" : ""}`}> */}
                   <Link
-                    to="#0"
-                    className={isSideMenu === "home" ? "subdrop" : ""}
-                    onClick={() =>
-                      toggleSidebar(isSideMenu === "home" ? "" : "home")
-                    }
+                    to="/find-talent"
+                    // className={isSideMenu === "home" ? "subdrop" : ""}
+                    // onClick={() =>
+                    //   toggleSidebar(isSideMenu === "home" ? "" : "home")
+                    // }
                     onMouseEnter={() => setSideMenu("home")}
                   >
-                    Home <i className="fas fa-chevron-down" />
+                    Find Talent <i className="fas fa-chevron-down" />
                   </Link>
-                  {isSideMenu === "home" ? (
-                    <ul
-                      className="submenu"
-                      style={{
-                        display: isSideMenu === "home" ? "block" : "none",
-                      }}
-                    >
-                      <li>
-                        <Link to="/">Home</Link>
-                      </li>
-                      <li className="active">
-                        <Link to="/index-two">Home 2</Link>
-                      </li>
-                      <li>
-                        <Link to="/index-three">Home 3</Link>
-                      </li>
-                      <li>
-                        <Link to="/index-four">Home 4</Link>
-                      </li>
-                      <li>
-                        <Link to="/index-five">Home 5</Link>
-                      </li>
-                    </ul>
-                  ) : (
-                    ""
-                  )}
+                 
                 </li>
 
+               
                 <li
-                  className={`has-submenu ${
-                    pathname === "developer" ||
-                    pathname === "developer-details" ||
-                    pathname === "dashboard" ||
-                    pathname === "manage-projects" ||
-                    pathname === "favourites" ||
-                    pathname === "invited-freelancer" ||
-                    pathname === "membership-plans" ||
-                    pathname === "milestones" ||
-                    pathname === "chats" ||
-                    pathname === "review" ||
-                    pathname === "deposit-funds" ||
-                    pathname === "withdraw-money" ||
-                    pathname === "transaction-history" ||
-                    pathname === "verify-identity" ||
-                    pathname === "profile-settings" ||
-                    pathname === "tasks" ||
-                    pathname === "files" ||
-                    pathname === "view-project-detail" ||
-                    pathname === "project-payment"
-                      ? "active"
-                      : ""
-                  }`}
+                 
                 >
                   <Link
-                    to="#"
-                    className={isSideMenu === "foremployers" ? "subdrop" : ""}
-                    onClick={() =>
-                      toggleSidebar(
-                        isSideMenu === "foremployers" ? "" : "foremployers"
-                      )
-                    }
-                    onMouseEnter={() => setSideMenu("foremployers")}
-                  >
-                    {" "}
-                    For Employers
-                    <i>
-                      <FontAwesomeIcon icon={faChevronDown} />
-                    </i>
-                  </Link>
-                  {isSideMenu === "foremployers" ? (
-                    <ul className="submenu">
-                      <li
-                        className={`has-submenu ${
-                          pathname === "developer" ||
-                          pathname === "developer-details"
-                            ? "active"
-                            : ""
-                        }`}
-                      >
-                        <Link
-                          to="#"
-                          onClick={() =>
-                            toggleSidebar1(
-                              isSideMenu1 === "freelancer" ? "" : "freelancer"
-                            )
-                          }
-                        >
-                          Freelancer
-                        </Link>
-                        <ul className="submenu">
-                          <li
-                            className={pathname === "developer" ? "active" : ""}
-                          >
-                            <Link to="/developer">Freelancer</Link>
-                          </li>
-                          <li
-                            className={
-                              pathname === "developer-details" ? "active" : ""
-                            }
-                          >
-                            <Link to="/developer-details">
-                              Freelancer Details
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className={pathname === "dashboard" ? "active" : ""}>
-                        <Link to="/dashboard">Dashboard</Link>
-                      </li>
-                      <li
-                        className={
-                          pathname === "company-profile" ? "active" : ""
-                        }
-                      >
-                        <Link to="/company-profile">My Profile</Link>
-                      </li>
-                      {/* <li className={pathname === "developer-details" ? "active" : ""}>
-                        <Link to="/developer-details">Freelancer Details</Link>
-                      </li> */}
-                      {/* <li className={pathname === "company-details" ? "active" : ""}>
-                      <Link to="/company-details">Company Details</Link>
-                    </li> */}
-                      <li
-                        className={
-                          pathname === "manage-projects" ? "active" : ""
-                        }
-                      >
-                        <Link to="/manage-projects">Projects</Link>
-                      </li>
-                      <li
-                        className={
-                          pathname === "favourites" ||
-                          pathname === "invited-freelancer"
-                            ? "active"
-                            : ""
-                        }
-                      >
-                        <Link to="/favourites">Favourites</Link>
-                      </li>
-                      <li
-                        className={
-                          pathname === "membership-plans" ? "active" : ""
-                        }
-                      >
-                        <Link to="/membership-plans">Membership</Link>
-                      </li>
-                      <li
-                        className={
-                          pathname === "view-project-detail" ||
-                          pathname === "milestones" ||
-                          pathname === "tasks" ||
-                          pathname === "files" ||
-                          pathname === "project-payment"
-                            ? "active"
-                            : ""
-                        }
-                      >
-                        <Link to="/milestones">Milestones</Link>
-                      </li>
-                      <li className={pathname === "chats" ? "active" : ""}>
-                        <Link to="/chats">Chats</Link>
-                      </li>
-                      <li className={pathname === "review" ? "active" : ""}>
-                        <Link to="/review">Review</Link>
-                      </li>
-                      <li
-                        className={
-                          pathname === "deposit-funds" ||
-                          pathname === "withdraw-money" ||
-                          pathname === "transaction-history"
-                            ? "active"
-                            : ""
-                        }
-                      >
-                        <Link to="/deposit-funds">Payments</Link>
-                      </li>
-                      <li
-                        className={
-                          pathname === "verify-identity" ? "active" : ""
-                        }
-                      >
-                        <Link to="/verify-identity">Verify Identity</Link>
-                      </li>
-                      <li
-                        className={
-                          pathname === "profile-settings" ? "active" : ""
-                        }
-                      >
-                        <Link to="/profile-settings">Settings</Link>
-                      </li>
-                    </ul>
-                  ) : (
-                    ""
-                  )}
-                </li>
-                <li
-                  className={`has-submenu ${
-                    pathname === "project" ||
-                    pathname === "project-details" ||
-                    pathname === "freelancer-dashboard" ||
-                    pathname === "company-profile" ||
-                    pathname === "freelancer-project-proposals" ||
-                    pathname === "freelancer-favourites" ||
-                    pathname === "freelancer-invitations" ||
-                    pathname === "freelancer-membership" ||
-                    pathname === "freelancer-change-password" ||
-                    pathname === "freelancer-chats" ||
-                    pathname === "freelancer-review" ||
-                    pathname === "freelancer-completed-projects" ||
-                    pathname === "freelancer-cancelled-projects" ||
-                    pathname === "freelancer-withdraw-money" ||
-                    pathname === "freelancer-verify-identity" ||
-                    pathname === "freelancer-ongoing-projects" ||
-                    pathname === "freelancer-profile-settings" ||
-                    pathname === "freelancer-transaction-history" ||
-                    pathname === "freelancer-project-proposals" ||
-                    pathname === "freelancer-view-project-detail" ||
-                    pathname === "freelancer-milestones" ||
-                    pathname === "freelancer-task" ||
-                    pathname === "freelancer-files" ||
-                    pathname === "freelancer-payment"
-                      ? "active"
-                      : ""
-                  }`}
-                >
-                  <Link
-                    to="#"
+                    to="/find-work"
                     className={isSideMenu === "forfreelancer" ? "subdrop" : ""}
                     onClick={() =>
                       toggleSidebar(
@@ -490,10 +272,10 @@ const HeaderTwo = (props) => {
                     onMouseEnter={() => setSideMenu("forfreelancer")}
                   >
                     {" "}
-                    For Freelancer
+                    Find Work
                     <i className="fas fa-chevron-down" />
                   </Link>
-                  {isSideMenu === "forfreelancer" ? (
+                  {/* {isSideMenu === "forfreelancer" ? (
                     <ul
                       className="submenu"
                       style={{
@@ -647,7 +429,7 @@ const HeaderTwo = (props) => {
                     </ul>
                   ) : (
                     ""
-                  )}
+                  )} */}
                 </li>
                 <li
                   className={`has-submenu ${
@@ -673,9 +455,9 @@ const HeaderTwo = (props) => {
                     }
                     onMouseEnter={() => setSideMenu("pages")}
                   >
-                    Pages <i className="fas fa-chevron-down" />
+                    About Freevance <i className="fas fa-chevron-down" />
                   </Link>
-                  {isSideMenu === "pages" ? (
+                  {/* {isSideMenu === "pages" ? (
                     <ul
                       className="submenu"
                       style={{
@@ -729,7 +511,7 @@ const HeaderTwo = (props) => {
                     </ul>
                   ) : (
                     ""
-                  )}
+                  )} */}
                 </li>
                 <li
                   className={`has-submenu ${
@@ -748,7 +530,7 @@ const HeaderTwo = (props) => {
                     }
                     onMouseEnter={() => setSideMenu("blog")}
                   >
-                    Blog <i className="fas fa-chevron-down" />
+                    Resourses <i className="fas fa-chevron-down" />
                   </Link>
                   {isSideMenu === "blog" ? (
                     <ul
@@ -758,25 +540,24 @@ const HeaderTwo = (props) => {
                       }}
                     >
                       <li className={pathname === "blog-list" ? "active" : ""}>
-                        <Link to="/blog-list">Blog List</Link>
+                        <Link to="/blog-list">For Freelancers</Link>
                       </li>
                       <li className={pathname === "blog-grid" ? "active" : ""}>
-                        <Link to="/blog-grid">Blog Grid</Link>
+                        <Link to="/blog-grid">For Company</Link>
                       </li>
-                      <li
-                        className={pathname === "blog-details" ? "active" : ""}
-                      >
-                        <Link to="/blog-details">Blog Details</Link>
-                      </li>
+                      
                     </ul>
                   ) : (
                     ""
                   )}
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/admin/login" target="_blank">
                     Admin
                   </Link>
+                </li> */}
+                <li>
+                
                 </li>
               </ul>
             </div>
@@ -784,8 +565,13 @@ const HeaderTwo = (props) => {
               <li>
                 <ul className="nav header-navbar-rht">
                   <li>
-                    <Link to="/post-project" className="login-btn">
-                      <i className="fa-solid fa-plus me-2"></i>Post a Project{" "}
+                    <Link to="/login" className="login-btn">
+                      Login{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/register" className="login-btn">
+                      Register{" "}
                     </Link>
                   </li>
                 </ul>

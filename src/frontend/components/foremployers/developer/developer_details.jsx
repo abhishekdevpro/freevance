@@ -298,7 +298,7 @@ const DeveloperDetails = () => {
                       </div>
                     </div>
                     <p className="mb-0">
-                      I've been buying and selling on kofejob Marketplace for
+                      I've been buying and selling on Freevance Marketplace for
                       the past two years, and it's been a game-changer for me.
                       The platform is user-friendly, and I've had great success
                       selling my handmade crafts. Plus, the customer support
@@ -341,7 +341,7 @@ const DeveloperDetails = () => {
                       </div>
                     </div>
                     <p className="mb-0">
-                      I've been buying and selling on kofejob Marketplace for
+                      I've been buying and selling on Freevance Marketplace for
                       the past two years, and it's been a game-changer for me.
                       The platform is user-friendly, and I've had great success
                       selling my handmade crafts. Plus, the customer support
@@ -384,7 +384,7 @@ const DeveloperDetails = () => {
                       </div>
                     </div>
                     <p className="mb-0">
-                      I've been buying and selling on kofejob Marketplace for
+                      I've been buying and selling on Freevance Marketplace for
                       the past two years, and it's been a game-changer for me.
                       The platform is user-friendly, and I've had great success
                       selling my handmade crafts. Plus, the customer support
@@ -427,7 +427,7 @@ const DeveloperDetails = () => {
                       </div>
                     </div>
                     <p className="mb-0">
-                      I've been buying and selling on kofejob Marketplace for
+                      I've been buying and selling on Freevance Marketplace for
                       the past two years, and it's been a game-changer for me.
                       The platform is user-friendly, and I've had great success
                       selling my handmade crafts. Plus, the customer support
@@ -470,7 +470,7 @@ const DeveloperDetails = () => {
                       </div>
                     </div>
                     <p className="mb-0">
-                      I've been buying and selling on kofejob Marketplace for
+                      I've been buying and selling on Freevance Marketplace for
                       the past two years, and it's been a game-changer for me.
                       The platform is user-friendly, and I've had great success
                       selling my handmade crafts. Plus, the customer support

@@ -413,7 +413,7 @@ const FreelancerProfile = () => {
                       <input
                         type="text"
                         className="form-control"
-                        defaultValue="https://www.kofejob.com/developer/daren/12454687"
+                        defaultValue="https://www..com/developer/daren/12454687"
                       />
                       <div className="input-group-append">
                         <button

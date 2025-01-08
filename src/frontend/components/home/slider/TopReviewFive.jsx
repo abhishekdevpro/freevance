@@ -41,7 +41,7 @@ const TopReviewFive = (props) => {
                                 data-aos="fade-up"
                             >
                                 <h2 className="header-title">Top Review</h2>
-                                <p>People love to come again for Kofejob </p>
+                                <p>People love to come again for Freevance </p>
                             </div>
                         </div>
                     </div>

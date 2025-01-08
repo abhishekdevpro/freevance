@@ -179,7 +179,7 @@ const FooterFive = (props) => {
                   <div className="footer-bottom-content">
                     <div className="copyright-text">
                       <p className="mb-0">
-                        Copyright 2023 © KofeJob. All right reserved.
+                        Copyright 2023 © Freevance. All right reserved.
                       </p>
                     </div>
                     <ul>

@@ -124,7 +124,7 @@ const Home4 = () => {
                       </h5>
                     </div>
                     <h1>
-                      Kofejob is a Community <br />
+                      Freevance is a Community <br />
                       for Freelancers
                     </h1>
                     <p>
@@ -402,7 +402,7 @@ const Home4 = () => {
               <div className="col-md-12 col-sm-12 col-12 mx-auto text-center">
                 <div className="section-header aos " data-aos="fade-up">
                   <h2 className="header-title">What’s great about it?</h2>
-                  <p>All the features of kofejob below</p>
+                  <p>All the features of Freevance below</p>
                 </div>
               </div>
             </div>
@@ -460,7 +460,7 @@ const Home4 = () => {
                   <div className="feature-content course-count">
                     <h3>Quality Work</h3>
                     <p>
-                      Kofejob.com has by far the largest pool of quality
+                      Freevance.com has by far the largest pool of quality
                       freelancers globally- over 50 million to choose from.
                     </p>
                   </div>
@@ -509,7 +509,7 @@ const Home4 = () => {
                   </div>
                   <div className="home-four-viewall">
                     <Link to="/register" className="home-four-viewall-btn">
-                      Register Kofejob{" "}
+                      Register Freevance{" "}
                       <i className="feather-arrow-right ms-2" />
                     </Link>
                     <Link to="/post-project" className="home-four-viewall-btn">
@@ -599,7 +599,7 @@ const Home4 = () => {
                   data-aos="fade-up"
                 >
                   <h2 className="header-title">What’s great about it?</h2>
-                  <p>All the features of kofejob below</p>
+                  <p>All the features of Freevance below</p>
                 </div>
               </div>
             </div>
@@ -808,7 +808,7 @@ const Home4 = () => {
                     We Provide Stable Service With Experts Freelancers around
                     the globe, are looking for work and provide the best they
                     have .Experience state-of-the-art marketplace platform with
-                    the Kofejob. We combine the experience of our global
+                    the Freevance. We combine the experience of our global
                     community around the globe for a best marketplace theme.
                   </p>
                   <div className="market-place-btn platform-btn">

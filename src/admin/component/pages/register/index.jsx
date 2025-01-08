@@ -17,7 +17,7 @@ const Register = () => {
                         <div className="loginbox">
                             <div className="login-right">
                                 <div className="login-right-wrap">
-                                    <h1>Join Kofejob</h1>
+                                    <h1>Join Freevance</h1>
                                     <p className="account-subtitle">
                                         Make the most of your professional life
                                     </p>
@@ -73,7 +73,7 @@ const Register = () => {
                                                 </div>
                                                 <div className="dont-have">
                                                     <p>
-                                                        You agree to the Kofejob <Link to="#">User Agreement,</Link>{" "}
+                                                        You agree to the Freevance <Link to="#">User Agreement,</Link>{" "}
                                                         <Link to="#">Privacy Policy,</Link> and{" "}
                                                         <Link to="#">Cookie Policy</Link>.
                                                     </p>
@@ -117,7 +117,7 @@ const Register = () => {
                                                         </Link>
                                                     </div>
                                                     <div className="col-lg-6 dont-have">
-                                                        New to Kofejob? <Link to="/admin/register">Click here</Link>
+                                                        New to Freevance? <Link to="/admin/register">Click here</Link>
                                                     </div>
                                                 </div>
                                             </form>
@@ -143,7 +143,7 @@ const Register = () => {
                                                 </div>
                                                 <div className="dont-have">
                                                     <p>
-                                                        You agree to the Kofejob <Link to="#">User Agreement,</Link>{" "}
+                                                        You agree to the Freevance <Link to="#">User Agreement,</Link>{" "}
                                                         <Link to="#">Privacy Policy,</Link> and{" "}
                                                         <Link to="#">Cookie Policy</Link>.
                                                     </p>
@@ -187,7 +187,7 @@ const Register = () => {
                                                         </Link>
                                                     </div>
                                                     <div className="col-lg-6 dont-have">
-                                                        New to Kofejob? <Link to="/admin/register">Click here</Link>
+                                                        New to Freevance? <Link to="/admin/register">Click here</Link>
                                                     </div>
                                                 </div>
                                             </form>

@@ -45,7 +45,7 @@ const ForgotPassword = () => {
                                             </Link>
                                         </div>
                                         <div className="col-lg-6 dont-have">
-                                            New to Kofejob? <Link to="/admin/register">Join Now</Link>
+                                            New to Freevance? <Link to="/admin/register">Join Now</Link>
                                         </div>
                                     </div>
                                 </div>

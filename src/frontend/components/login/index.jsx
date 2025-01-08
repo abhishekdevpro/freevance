@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
-import { fb_icon, google_icon, ios_icon, logo } from "../imagepath";
+import { fb_icon, google_icon, ios_icon,logo } from "../imagepath";
 const Login = () => {
 
   const [passwordVisible, setPasswordVisible] = useState(false);
@@ -66,7 +66,7 @@ const Login = () => {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-sm-8 dont-have d-flex  align-items-center">New to Kofejob <Link to="/register" className="ms-2">Signup?</Link></div>
+                    <div className="col-sm-8 dont-have d-flex  align-items-center">New to Freevance <Link to="/register" className="ms-2">Signup?</Link></div>
                     <div className="col-sm-4 text-sm-end">
                       <Link className="forgot-link" to="/forgot-password">Lost Password?</Link>
                     </div>

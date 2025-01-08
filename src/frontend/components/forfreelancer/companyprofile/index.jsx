@@ -322,7 +322,7 @@ const CompanyProfile = () => {
                       </div>
                     </div>
                     <p className="mb-0">
-                      I&apos;ve been buying and selling on kofejob Marketplace
+                      I&apos;ve been buying and selling on Freevance Marketplace
                       for the past two years&lsquo; and it&apos;s been a
                       game-changer for me. The platform is user-friendly&lsquo;
                       and I&apos;ve had great success selling my handmade
@@ -365,7 +365,7 @@ const CompanyProfile = () => {
                       </div>
                     </div>
                     <p className="mb-0">
-                      I&apos;ve been buying and selling on kofejob Marketplace
+                      I&apos;ve been buying and selling on Freevance Marketplace
                       for the past two years&lsquo; and it&apos;s been a
                       game-changer for me. The platform is user-friendly&lsquo;
                       and I&apos;ve had great success selling my handmade
@@ -408,7 +408,7 @@ const CompanyProfile = () => {
                       </div>
                     </div>
                     <p className="mb-0">
-                      I&apos;ve been buying and selling on kofejob Marketplace
+                      I&apos;ve been buying and selling on Freevance Marketplace
                       for the past two years&lsquo; and it&apos;s been a
                       game-changer for me. The platform is user-friendly&lsquo;
                       and I&apos;ve had great success selling my handmade
@@ -451,7 +451,7 @@ const CompanyProfile = () => {
                       </div>
                     </div>
                     <p className="mb-0">
-                      I&apos;ve been buying and selling on kofejob Marketplace
+                      I&apos;ve been buying and selling on Freevance Marketplace
                       for the past two years&lsquo; and it&apos;s been a
                       game-changer for me. The platform is user-friendly&lsquo;
                       and I&apos;ve had great success selling my handmade
@@ -494,7 +494,7 @@ const CompanyProfile = () => {
                       </div>
                     </div>
                     <p className="mb-0">
-                      I&apos;ve been buying and selling on kofejob Marketplace
+                      I&apos;ve been buying and selling on Freevance Marketplace
                       for the past two years&lsquo; and it&apos;s been a
                       game-changer for me. The platform is user-friendly&lsquo;
                       and I&apos;ve had great success selling my handmade

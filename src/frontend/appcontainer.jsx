@@ -133,6 +133,10 @@ import ChangePasswords from "./components/pages/change_passwords.jsx";
 import Pendingprojects from "./components/foremployers/pendingprojects/index.jsx";
 import ExpiredProjects from "./components/foremployers/expiredprojects/index.jsx";
 import FreelancerPayouts from "./components/forfreelancer/payouts/index.jsx";
+import FooterTwo from "./components/footer/index-two.jsx";
+import HeaderTwo from "./components/header/headertwo.jsx";
+import TalentPage from "./components/TalentPage/index.jsx";
+import WorkPage from "./components/workPage/index.jsx";
 // import PostJob from "./components/jobs/post-job";
 
 if (window.location.pathname.includes("admin")) {
@@ -273,15 +277,18 @@ const AppContainer = function (props) {
           </div>
         ) : (
           <>
-            <Route render={(props) => <Header {...props} />} />
+            <Route render={(props) => <HeaderTwo {...props} />} />
             <div className="about-us-page">
               <Switch>
                 {/* home */}
+                {/* <Route exact path="/" component={Home} /> */}
+                {/* <Route exact path="/index-two" component={Home2} /> */}
                 <Route exact path="/" component={Home2} />
-                <Route exact path="/index-two" component={Home2} />
                 <Route exact path="/index-three" component={Home3} />
                 <Route exact path="/index-four" component={Home4} />
                 <Route exact path="/index-five" component={Home5} />
+                <Route exact path="/find-talent" component={TalentPage} />
+                <Route exact path="/find-work" component={WorkPage} />
                 <Route
                   exact
                   path="/developer-profile"
@@ -577,8 +584,8 @@ const AppContainer = function (props) {
                 <Route exact path="/edit-project" component={EditProject} />
               </Switch>
             </div>
-            <Route render={(props) => <Footer {...props} />} />
-            {/* <Route render={(props) => <FooterTwo {...props} />} /> */}
+            {/* <Route render={(props) => <Footer {...props} />} /> */}
+            <Route render={(props) => <FooterTwo {...props} />} />
           </>
         )}
       </Router>

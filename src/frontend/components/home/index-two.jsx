@@ -136,7 +136,7 @@ const Home2 = () => {
       <div className="main-wrapper">
         {/* Start Navigation */}
         {/* Header */}
-        <HeaderTwo />
+        {/* <HeaderTwo /> */}
         {/* /Header */}
         <>
           {/* Home Banner */}
@@ -467,7 +467,7 @@ const Home2 = () => {
                     We Provide Stable Service With Experts Freelancers around
                     the globe, are looking for work and provide the best they
                     have .Experience state-of-the-art marketplace platform with
-                    the Kofejob. We combine the experience of our global
+                    the Freevance. We combine the experience of our global
                     community around the globe for a best marketplace theme.
                   </p>
                   <div className="market-place-btn platform-btn">
@@ -1398,7 +1398,7 @@ const Home2 = () => {
                   data-aos="fade-up"
                 >
                   <h2 className="header-title">
-                    What's Great About <span>Kofejob</span>
+                    What's Great About <span>Freevance</span>
                   </h2>
                 </div>
               </div>
@@ -1678,6 +1678,7 @@ const Home2 = () => {
             </div>
           </div>
         </section>
+       
 
         {/* /Job Location */}
         {/* Review */}
@@ -1690,9 +1691,9 @@ const Home2 = () => {
         <FeaturedBlog />
         {/* / News */}
         {/* News */}
-
+        
         {/*Main Wrapper */}
-        <FooterTwo />
+        {/* <FooterTwo /> */}
         {/* Scroll Top */}
         <button
           className={

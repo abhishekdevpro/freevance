@@ -48,7 +48,7 @@ const FooterTwo = (props) => {
               </div>
               <div className="sign-in-btn text-center mt-5 aos" data-aos="fade-up">
                 <Link to="/login" className="btn btn-primary">
-                  Register Kofejob{" "}
+                  Register Freevance{" "}
                 </Link>
               </div>
             </div>
@@ -130,8 +130,8 @@ const FooterTwo = (props) => {
                 <div className="footer-widget footer-menu">
                   <h2 className="footer-title">Get Contact</h2>
                   <ul className="info-contact">
-                    <li>Phone: (406) 555-0120</li>
-                    <li>E-mail: info@example.com</li>
+                    {/* <li>Phone: (406) 555-0120</li> */}
+                    <li>E-mail: info@freevance.com</li>
                   </ul>
                   <h2 className="footer-title mb-0">Newsletter</h2>
                   <div
@@ -172,7 +172,7 @@ const FooterTwo = (props) => {
               <div className="col-md-12">
                 <div className="copyright-text text-center">
                   <p className="mb-0">
-                    Copyright 2023 © KofeJob. All right reserved.{" "}
+                    Copyright 2023 © Freevance. All right reserved.{" "}
                   </p>
                 </div>
               </div>
