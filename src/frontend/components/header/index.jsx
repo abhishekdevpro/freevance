@@ -911,7 +911,7 @@ const Header = (props) => {
                                     <p className="noti-details">
                                       {" "}
                                       Notifications alert you to new messages in
-                                      your Kofejob inbox.
+                                      your Freevance inbox.
                                     </p>
                                     <div className="notification-btn">
                                       <span className="btn btn-primary">
@@ -947,7 +947,7 @@ const Header = (props) => {
                                     <p className="noti-details">
                                       {" "}
                                       Notifications alert you to new messages in
-                                      your Kofejob inbox.
+                                      your Freevance inbox.
                                     </p>
                                     <p className="noti-time">
                                       <span className="notification-time">

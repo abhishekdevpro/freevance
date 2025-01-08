@@ -447,7 +447,7 @@ const Task = () => {
                   <div className="col-md-12">
                     <div className="copyright-text text-center">
                       <p className="mb-0">
-                        Copyright 2023 © KofeJob. All right reserved.
+                        Copyright 2023 © Freevance. All right reserved.
                       </p>
                     </div>
                   </div>

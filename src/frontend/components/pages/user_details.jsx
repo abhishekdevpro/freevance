@@ -4781,7 +4781,7 @@ const UserDetails = () => {
                             <input
                               type="text"
                               className="form-control"
-                              defaultValue="https://www.kofejob.com/developer/daren/12454687"
+                              defaultValue="https://www.Freevance.com/developer/daren/12454687"
                             />
                             <div className="input-group-append">
                               <button className="btn btn-success sub-btn" type="submit">

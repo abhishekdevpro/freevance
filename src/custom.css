@@ -17,3 +17,7 @@
 .ant-pagination-next.ant-pagination-disabled {
     margin-left: 10px !important;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -93,9 +93,9 @@ const OnboardScreen = () => {
                   <div className="multistep-progress" id="freelance_step">
                     <div className="container">
                       <div className="first-progress">
-                        <div className="row align-items-center">
+                        {/* <div className="row align-items-center">
                           <div className="col-md-3">
-                            <div className="board-logo">
+                            <div className="">
                               <Link to="/">
                                 <img
                                   src={logo}
@@ -211,7 +211,7 @@ const OnboardScreen = () => {
                               </li>
                             </ul>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

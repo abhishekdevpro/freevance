@@ -2,7 +2,7 @@
 /* eslint-disable no-empty */
 /*
 Author       : Dreamguys
-Template Name: Kofejob - Bootstrap Template
+Template Name: Freevance - Bootstrap Template
 Version      : 1.0
 */
 (function($) {

@@ -35,10 +35,10 @@ const TermsCondition = () => {
             <div className="col-md-8">
               <div className="terms-content">
                 <div className="terms-text">
-                  <h4>Welcome to Kofejob</h4>
+                  <h4>Welcome to Freevance</h4>
                   <p>
                     Thanks for using our products and services ("Services"). The
-                    Services are provided by Pixeel Ltd. ("Kofejob"), located at 153
+                    Services are provided by Pixeel Ltd. ("Freevance"), located at 153
                     Williamson Plaza, Maggieberg, MT 09514, England, United Kingdom.
                   </p>
                   <p>
@@ -88,7 +88,7 @@ const TermsCondition = () => {
                     context in which you provide the data. In particular:
                   </p>
                   <p>
-                    When you register for a Kofejob account we collect your full
+                    When you register for a Freevance account we collect your full
                     name, email address, and account log-in credentials.
                   </p>
                   <p>
@@ -97,16 +97,16 @@ const TermsCondition = () => {
                     you tell us about your project, needs and timeline.
                   </p>
                   <p>
-                    When you use the "Remember Me" feature of Kofejob Checkout, we
+                    When you use the "Remember Me" feature of Freevance Checkout, we
                     collect your email address, payment card number, CVC code and
                     expiration date.
                   </p>
                   <p>
-                    When you respond to Kofejob emails or surveys we collect your
+                    When you respond to Freevance emails or surveys we collect your
                     email address, name and any other information you choose to
                     include in the body of your email or responses. If you contact
                     us by phone, we will collect the phone number you use to call
-                    Kofejob. If you contact us by phone as a Kofejob User, we may
+                    Freevance. If you contact us by phone as a Freevance User, we may
                     collect additional information in order to verify your identity.
                   </p>
                 </div>

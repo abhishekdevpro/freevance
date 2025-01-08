@@ -355,7 +355,7 @@ const Home5 = () => {
                     data-aos="fade-up"
                   >
                     <h2 className="header-title">Need something done?</h2>
-                    <p>Kofejob is here to help you to get job completed</p>
+                    <p>Freevance is here to help you to get job completed</p>
                   </div>
                 </div>
               </div>
@@ -413,7 +413,7 @@ const Home5 = () => {
                     <div className="feature-content course-count">
                       <h3>Quality Work</h3>
                       <p>
-                        Kofejob.com has by far the largest pool of quality
+                        Freevance.com has by far the largest pool of quality
                         freelancers globally- over 50 million to choose from.
                       </p>
                     </div>
@@ -1296,7 +1296,7 @@ const Home5 = () => {
                       <div className="footer-bottom-content">
                         <div className="copyright-text">
                           <p className="mb-0">
-                            Copyright 2023 © KofeJob. All right reserved.
+                            Copyright 2023 © Freevance. All right reserved.
                           </p>
                         </div>
                         <ul>

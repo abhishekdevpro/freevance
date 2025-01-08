@@ -131,7 +131,7 @@ const Login = (props) => {
                                                 </Link>
                                             </div>
                                             <div className="col-lg-6 dont-have">
-                                                New to Kofejob? <Link to="/admin/register">Click here</Link>
+                                                New to Freevance? <Link to="/admin/register">Click here</Link>
                                             </div>
                                         </div>
                                     </form>

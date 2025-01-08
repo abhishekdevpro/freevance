@@ -144,7 +144,7 @@ const BlogGrid = () => {
                       </ul>
                       <h3 className="blog-title">
                         <Link to="/blog-details">
-                          Kofejob - How to get job through online?
+                          Freevance - How to get job through online?
                         </Link>
                       </h3>
                       <p className="mb-0">
@@ -222,7 +222,7 @@ const BlogGrid = () => {
                       </ul>
                       <h3 className="blog-title">
                         <Link to="/blog-details">
-                          How to crack the interview easily - Kofejob
+                          How to crack the interview easily - Freevance
                         </Link>
                       </h3>
                       <p className="mb-0">

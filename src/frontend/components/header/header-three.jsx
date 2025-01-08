@@ -92,7 +92,7 @@ const HeaderThree = (props) => {
         <div className="top-header" style={{ display: visible ? "" : "none" }}>
           <p>
             <img src={giftbox} alt="Img" />
-            Intro price. Get Kofejob for Big Sale -95% off.
+            Intro price. Get Freevance for Big Sale -95% off.
           </p>
           <h5>First Posting Free!!!</h5>
           <Link to="#" className="close-add" onClick={handleClose}>

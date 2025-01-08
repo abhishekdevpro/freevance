@@ -25,7 +25,7 @@ const BlogSidebar =()=> {
                       <div className="post-info">
                         <h4>
                           <Link to="/blog-details">
-                            Kofejob - How to get job through online?
+                            Freevance - How to get job through online?
                           </Link>
                         </h4>
                         <Link to="#" className="posts-date">

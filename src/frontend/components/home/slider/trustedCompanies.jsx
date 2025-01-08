@@ -59,7 +59,7 @@ const TrustedCompanies = (props) => {
                 data-aos="fade-up"
               >
                 <span className="badge title-badge">Trusted Companies</span>
-                <h2>Featured Companies in Kofejob</h2>
+                <h2>Featured Companies in Freevance</h2>
               </div>
             </div>
 

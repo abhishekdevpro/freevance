@@ -21,7 +21,7 @@ const JobOpportunity = () => {
                 to ="/register"
                 className="btn btn-primary next-register me-3"
               >
-                Register Kofejob
+                Register Freevance
                 <i className="feather-arrow-right ms-2" />
               </Link>
               <Link to ="/login" className="btn btn-primary next-sign">
