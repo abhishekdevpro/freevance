@@ -9,11 +9,14 @@ const FooterTwo = (props) => {
   const pathname = props.location && props.location.pathname.split("/")[1];
 
   
+  const exclusionArray = [
+    "/",
 
+  ];
   // eslint-disable-next-line react/prop-types
-  // if (props.location && exclusionArray.indexOf(props.location.pathname) >= 0) {
-  //   return "";
-  // }
+  if (props.location && exclusionArray.indexOf(props.location.pathname) >= 0) {
+    return "";
+  }
 
   return (
     <>

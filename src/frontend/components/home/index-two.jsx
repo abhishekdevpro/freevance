@@ -1693,7 +1693,7 @@ const Home2 = () => {
         {/* News */}
         
         {/*Main Wrapper */}
-        {/* <FooterTwo /> */}
+        <FooterTwo /> 
         {/* Scroll Top */}
         <button
           className={
