@@ -8,15 +8,12 @@ const FooterTwo = (props) => {
   // eslint-disable-next-line react/prop-types, no-unused-vars
   const pathname = props.location && props.location.pathname.split("/")[1];
 
-  const exclusionArray = [
-    "/index-two",
-
-  ];
+  
 
   // eslint-disable-next-line react/prop-types
-  if (props.location && exclusionArray.indexOf(props.location.pathname) >= 0) {
-    return "";
-  }
+  // if (props.location && exclusionArray.indexOf(props.location.pathname) >= 0) {
+  //   return "";
+  // }
 
   return (
     <>
@@ -172,7 +169,7 @@ const FooterTwo = (props) => {
               <div className="col-md-12">
                 <div className="copyright-text text-center">
                   <p className="mb-0">
-                    Copyright 2023 © Freevance. All right reserved.{" "}
+                    Copyright 2025 © Freevance. All right reserved.{" "}
                   </p>
                 </div>
               </div>
